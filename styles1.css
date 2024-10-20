@@ -1,0 +1,90 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Container Layout */
+.container {
+    display: flex;
+    min-height: 100vh;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+/* Sidebar Styles */
+.sidebar {
+    width: 250px;
+    background-color: #008080; /* Teal */
+    color: white;
+    padding: 20px;
+    flex-shrink: 0;
+}
+
+.sidebar h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.sidebar ul {
+    list-style-type: none;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+/* Main Content Styles */
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.top-bar {
+    margin-bottom: 30px;
+}
+
+.top-bar h1 {
+    font-size: 28px;
+    color: #333;
+}
+
+/* Card Styles */
+.cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap; /* Wrap cards on smaller screens */
+    justify
+	
+	/* Top Bar - User Info */
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Space between image and text */
+}
+
+/* Profile Picture Styling */
+.profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image fills the space without distortion */
+    border: 2px solid #008080; /* Optional: Teal border for branding */
+}
+ footer {
+            text-align: center;
+            padding: 10px;
+            background-color:red;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Sweet Treats Cake Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff7e6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff9966;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        >
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #cc3300;
+            text-align: center;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        input, textarea {
+            margin-bottom: 15px;
+            padding: 10px;
+            font-size: 1em;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            background-color: #ff9966;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #cc3300;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #ff9966;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Sweet Treats Cake Shop</h1>
+    <nav>
+        <a href="CAKE SHOP.html">Home</a>
+        <a href="ABOUT.html">Menu</a>
+        <a href="CONTACT1.html">About Us</a>
+        <a href="PRODUCT.html">Contact</a>
+    </nav>
+</header>
+
+<div class="container">
+    <h1>Contact Us</h1>
+    <p>Have a question, custom order request, or feedback? We’d love to hear from you! Please fill out the form below, and we'll get back to you soon.</p>
+    
+    <form action="submit_form.php" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required placeholder="Enter your full name">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="Enter your email">
+
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject" placeholder="Enter the subject">
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required placeholder="Write your message here"></textarea>
+
+        <input type="submit" value="Send Message">
+    </form>
+</div>
+
+<footer>
+    <p>&copy; 2024 Sweet Treats Cake Shop. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

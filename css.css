@@ -1,0 +1,416 @@
+
+*  {
+ margin: 0;
+ padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Quicksand; 
+  background:white ;
+}
+/* Slideshow container */
+.slideshow-container {
+  max-width:
+ 100%;
+  position:relative;
+  height:100vh;
+  overflow:hidden;
+;
+}
+
+/* Header/Blog Title 
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+.header h1 {float:center;
+  font-size: 50px;*/
+}
+
+/* Style the top navigation bar 
+.topnav {
+  overflow: hidden;
+  background-color:black;
+  */
+}
+
+* {
+
+ box-sizing: border-box;
+}
+body {
+ font-family:
+}
+
+
+}
+li {
+list-style: none;}
+ 
+ /*.navbar { 
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 10px;
+ background-color:black;
+ color: black;*/
+}
+			 
+
+
+./*topnav a:hover {
+  background-color:white;
+  color: ;
+}*
+
+/* Create two unequal columns that floats next to each other */
+ 
+.logo{padding:20px 20px; position:;}
+/* NAVBAR MENU */
+.menu {
+ display: flex;
+ gap: 2em;
+ font-size:20px;
+float: right;
+position:center-left;}
+
+.menu li:hover {
+ background-color:#000000bf;
+ border-radius: 5px;
+ transition: 0.3s ease;
+}
+.menu li {
+ padding: 5px 14px;
+}
+ DROPDOWN MENU
+.services {
+ position: relative; 
+}
+.dropdown {
+ background-color: #000000bf;
+ padding: 1em 0;
+ position: absolute; /*WITH RESPECT TO PARENT*/
+ display:;
+ border-radius: 8px;
+ top: 35px;
+ width:1050px}
+.dropdown li + li {
+ margin-top: 10px;
+}
+.dropdown li {
+ padding: 0.5em 1em;
+ width: 8em;
+ text-align:;
+float:right;}
+.dropdown li:hover {
+ background-color: #000000bf;
+}
+.services:hover .dropdown {
+ display: block;
+}/* DROPDOWN MENU */
+.services {
+ position: relative; 
+}
+.dropdown {list-style:none;
+ background-color: #000000bf;
+ padding: 1em 0;
+ position: absolute; /*WITH RESPECT TO PARENT*/
+ display: none;
+ border-radius: 8px;
+ top: 35px;
+}
+.dropdown li + li {
+ margin-top: 10px;
+}
+.dropdown li {
+ padding: 0.5em 1em;
+ width: 8em;
+ text-align: center;
+}
+.dropdown li:hover {
+ background-color: #000000bf;
+}
+.services:hover .dropdown {
+ display: ;
+}
+/* DROPDOWN MENU */
+.INDUSTRIES {
+ position: relative; 
+}
+.dropdown {
+ background-color: black;
+ padding: 1em 0;
+ position: absolute; /*WITH RESPECT TO PARENT*/
+ display: none;
+ border-radius: 8px;
+ top: 35px;
+}
+.dropdown li + li {
+ margin-top: 10px;
+}
+.dropdown li {
+ padding: 0.5em 1em;
+ width: 10em;
+ text-align: center;
+}
+.dropdown li:hover {
+ background-color:#000000bf;
+}
+.INDUSTRIES:hover .dropdown {
+ display: block;
+}
+
+/* DROPDOWN MENU */
+.TECHNOLOGIES
+ position: relative; 
+}
+.dropdown {
+ background-color: ;#000000bf;
+ padding: 1em 0;
+ position: absolute; /*WITH RESPECT TO PARENT*/
+ display: none;
+ border-radius: 8px;
+ top: 35px;
+}
+.dropdown li + li {
+ margin-top: 10px;
+}
+.dropdown li {
+ padding: 0.5em 1em;
+ width: 10em;
+ text-align: center;
+}
+.dropdown li:hover {
+ background-color:#000000bf;
+}
+.TECHNOLOGIES:hover .dropdown {
+ display: block;
+}
+
+/* DROPDOWN MENU */
+.VIOP-TELEPHONIES {
+ position: relative; 
+}
+.dropdown {
+ background-color: ;
+ padding: 1em 0;
+ position: absolute; /*WITH RESPECT TO PARENT*/
+ display: ;
+ border-radius: 8px;
+ top: 35px;
+}
+.dropdown li + li {
+ margin-top: 10px;
+}
+.dropdown li {
+ padding: 0.5em 1em;
+ width: 10em;
+ text-align: center;
+}
+.dropdown li:hover {
+ background-color: darkorange;
+}
+.VIOP-TELEPHONIES:hover .dropdown {
+ display: block;
+}
+.leftcolumn {   
+  float: left;
+  width: 30%;
+  height:
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: ;
+  background-color:;
+  padding-left: 0px;
+  padding-bottom:0px;
+height:500px;}
+
+/* Fake image */
+.fakeimg {
+  background-color:white;
+  width: 100%;
+  
+  
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color:white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {height:800px;
+  
+  display: table;
+  clear: both;
+  background-color:black;}
+
+/* Footer */
+. { 
+  color:white;
+  padding: 20px ;
+  text-align: ;
+  background-image:;
+  margin-top: 20px;
+  width:100%;
+  height:0px;
+}
+.numbertext {
+  color:white;
+  font-size:px;
+  padding: 1px 12px;
+  position: bottom ;
+bottom:0;}
+  
+  .image{background-image:url(1.jpg);
+  background-color:#3E8DA8;
+  font-size:60px;
+   width:100%; 
+   height:650px;
+   color:white;
+font-family:quicksand;
+  }
+  
+  .orange{ position: center-right;background:#3E8DA8;
+  float:right;
+  }
+ .h5{font-size:70px;
+ color:black;}
+ .col6{float:right; padding:;}
+  .col4{float:right;}
+  .col10{float:left;}
+  .col11{float:left;}
+  .col2{float:left;}
+  .col1{float:left; color:#3E8DA8;font-size:50px; text-align:block; padding-left:1px; font-family:arial;}
+  
+ .loc{
+ gap: 1em;}
+ 
+ 
+
+/* (A) OUTER CONTAINER */
+.hwrap {
+  /* (A1) DIMENSIONS */
+  width: 100%;
+  height: 150px; /* OPTIONAL */
+
+  /* (A2)  */
+  background:#3E8DA8 ;
+  border: ;
+  overflow: hidden; /* HIDE SCROLLBARS */
+}
+
+
+/* (B) MIDDLE CONTAINER - FLEX LAYOUT */
+.hmove {
+  display: flex;
+  position: relative;
+  top: 0; right: 0;
+}
+
+/* (C) SLIDES - FORCE INTO ONE LONG HORIZONTAL ROW */
+.hslide {
+  width: 100%;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+
+/* (D) SLIDE ANIMATION */
+@keyframes slideh {
+  /* (D0) THE IDEA - USE KEYFRAMES TO SHIFT SLIDES *
+  0% { right: 0; }
+  33% { right: 100%; }
+  66% { right: 200%; }
+  100% { right: 0; }
+ 
+  /* (D1) BUT THE ABOVE WILL SHIFT NON-STOP */
+  /* SO WE ADD PAUSES BETWEEN EACH SLIDE */
+  0% { right: 0; }
+  30% { right: 0; }
+  33% { right: 100%; }
+  63% { right: 100%; }
+  66% { right: 200%; }
+  97% { right: 200%; }
+  100% { right: 0; }
+}
+.hmove { animation: slideh linear 15s infinite; }
+.hmove:hover { animation-play-state: paused; }
+
+.hwraps {
+  /* (A1) DIMENSIONS */
+  width: 100%;
+  height: 360px; /* OPTIONAL */
+
+  /* (A2)  */
+  background:#3E8DA8 ;
+  
+  border: ;
+  overflow: hidden; /* HIDE SCROLLBARS */
+}
+.hslides {
+  width: 100%;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  padding: 10px;
+  background:#3E8DA8;
+}
+.hmoves {
+  display: flex;
+  position: relative;
+  top: 0; right: 0;
+}
+/* (D) SLIDE ANIMATION */
+@keyframes slideh {
+  /* (D0) THE IDEA - USE KEYFRAMES TO SHIFT SLIDES *
+  0% { right: 0; }
+  33% { right: 100%; }
+  66% { right: 200%; }
+  100% { right: 0; }
+ 
+  /* (D1) BUT THE ABOVE WILL SHIFT NON-STOP */
+  /* SO WE ADD PAUSES BETWEEN EACH SLIDE */
+  0% { right: 0; }
+  30% { right: 0; }
+  33% { right: 100%; }
+  63% { right: 100%; }
+  66% { right: 200%; }
+  97% { right: 200%; }
+  100% { right: 0; }
+}
+.hmoves { animation: slideh linear 15s infinite; }
+.hmoves:hover { animation-play-state: paused; }
+.banner{font-size:150px; text-align:center;
+color:#3E8DA8;}
+ 
+ .food{background-color:#3E8DA8;height:600px;}
+ .foodtext1{font-size:20px;
+ color:white;}
+ .order{color:black;}
+ .order1{height:500px;float:left}
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .nav a {
+    float: ;
+    width: %;
+  }
+ 
+}
+
